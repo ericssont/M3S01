@@ -5,9 +5,10 @@ import lombok.Data;
 
 import java.time.LocalDate;
 
+
 @Data
 @Entity
-public class Despesa {
+public class Despesas {
 
     @Id
     @Column(name = "id_despesas")
@@ -31,4 +32,5 @@ public class Despesa {
 
     @Column(nullable = false)
     private String status;
+
 }
